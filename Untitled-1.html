@@ -13,10 +13,10 @@
     </h1>
     <nav>
         <ul>
-            <li>About</li>
-            <li>Gallery</li>
-            <li>Contact</li>
-            <li>top</li>
+            <li><a href ="#about">About</a></li>
+            <li><a href ="#gallery">Gallery</a></li>
+            <li><a href ="#contact">Contact</a></li>
+            <li><a href ="#top">Top</a></li>
         </ul>
     </nav>
 </header>
@@ -36,51 +36,70 @@ I’m TK and I’m a photographer. I love looking at life through the lens of my
     </section>
     <section id="chile">
     <img src="images-20240216T100334Z-001\images\Chile.png">
-    <p>Chile, 2001</p>
+    <figcaption>Chile, 2001</figcaption>
 </section>
 <section id="guatamela">
     <img src="images-20240216T100334Z-001\images\Guatemala.png">
-    <p>Guatemala, 1997
-    </p>
+    <figcaption>Guatemala, 1997
+    </figcaption>
 </section>
 <section id="hawaii">
     <img src="images-20240216T100334Z-001\images\Hawaii.png">
-    <p>Hawaii, 2010</p>
+    <figcaption>Hawaii, 2010</figcaption>
 </section>
 <section id="iran">
     <img src="images-20240216T100334Z-001\images\Iran.png">
-    <p>Iran, 1999</p>
+    <figcaption>Iran, 1999</figcaption>
 </section>
 <section id="italy">
     <img src="images-20240216T100334Z-001\images\Italy.png">
-    <p>Italy, 2015</p>
+    <figcaption>Italy, 2015</figcaption>
 </section>
 <section id="moabdesert">
     <img src="images-20240216T100334Z-001\images\Moab-Desert.png">
-    <p>Moab Desert, 2020</p>
+    <figcaption>Moab Desert, 2020</figcaption>
     <section id="rockymountains">
         <img src="images-20240216T100334Z-001\images\Rocky-Mountains.png">
-        <p>Rocky Mountains, 2009</p>
+        <figcaption>Rocky Mountains, 2009</figcaption>
     </section>
     <section id="Switzerland">
         <img src="images-20240216T100334Z-001\images\Switzerland.png">
-        <p>Switzerland, 2014</p>
+        <figcaption>Switzerland, 2014</figcaption>
     </section>
     <section id="UK">
         <img src="images-20240216T100334Z-001\images\UK.png">
-        <p>UK, 2005</p>
+        <figcaption>UK, 2005</figcaption>
     </section>
     <section id="usa">
         <img src="images-20240216T100334Z-001\images\USA.png">
-        <p>USA, 2021</p>
+        <figcaption>USA, 2021</figcaption>
     </section>
     <section id="wyoming">
         <img src="images-20240216T100334Z-001\images\Wyoming.png">
-        <p>Wyoming, 2021</p>
+        <figcaption>Wyoming, 2021</figcaption>
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p></p>
+        <figcaption>Please fill out this form and I’ll connect with you soon.
+        </figcaption>
+        <form action="submit_form.php" method="post">
+            <fieldset>
+                <legend>Your contact information</legend>
+    
+                <label for="name">Your full name</label><br>
+                <input type="text" id="name" name="name" required><br>
+    
+                <label for="email">Email (Enter your email address):</label><br>
+                <input type="email" id="email" name="email" required><br>
+    
+                <label for="message">Message (What can I help you with?):</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    
+      
     </section>
 
 </main>
