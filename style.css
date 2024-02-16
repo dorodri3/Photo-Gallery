@@ -93,3 +93,30 @@ input[type="submit"] {
 footer {
     text-align: center;
 }
+
+
+
+
+
+
+
+@media (min-width: 880px) {
+
+
+    
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;}
+
+
+
+
+    
+}
+
+
+
+
+
+
+
