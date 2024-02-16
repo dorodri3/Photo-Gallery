@@ -12,6 +12,7 @@ main {
 
 h1 {
     font-size: 3em;
+    color: #007d7b;
 }
 
 h2 {
@@ -45,4 +46,11 @@ img {
     position:fixed;
     bottom:0px;
     right:0px;
+}
+
+input[type="submit"] {
+
+    color: white;
+
+    background-color: #007d7b;
 }
