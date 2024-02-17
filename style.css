@@ -62,23 +62,25 @@ nav ul {
 
 
 
-img {
-    
-    
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:20px;
+
 }
 
+#gallery section img {
+    width: auto;
+    height: auto;}
 
-section img {
-    display: block;
-}
-
-
-
-figcaption {
+#gallery section figcaption {
     position: absolute;
     color: white;
-    text-align: center;
-}
+    text-align: center;}
+
+
+
+
 
 
 
@@ -113,14 +115,19 @@ footer {
 @media (min-width: 880px) {
 
     body {
-        display: block;
-        margin: 0 auto;
-        width: 880px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
 
 
 
 
+    }
+
+    main {
+        justify-content: center;
     }
 
 
