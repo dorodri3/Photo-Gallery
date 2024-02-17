@@ -1,5 +1,6 @@
 
 html {
+    
     background-color: black;
 }
 
@@ -7,11 +8,11 @@ html {
 
 
 body { 
-    width:485px;
+    
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     margin: 0 auto;
-    width: 880px;
+    width:485px;
     background-color: white;
     color: black;
 
@@ -64,8 +65,9 @@ nav ul {
 
 #gallery {
     display: grid;
-    grid-template-columns: auto;
-    grid-gap:20px;
+    grid-template-columns: 1fr;
+    
+    
 
 }
 
@@ -117,7 +119,7 @@ footer {
     body {
         display: flex;
         flex-direction: column;
-        
+        width: 880px;
         justify-content: center;
 
 
@@ -133,6 +135,10 @@ nav {
    
     h1 {
         align-self: flex-start;
+    }
+
+    main h2 {
+        text-align: center;
     }
 
     main {
@@ -154,9 +160,6 @@ nav {
 
         #gallery section figcaption {
             text-align: center;}
-
-
-
 
 
 
