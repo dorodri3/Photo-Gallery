@@ -1,7 +1,17 @@
+
+html {
+    background-color: black;
+}
+
+
+
+
 body { 
     width:485px;
     font-family: Arial, Helvetica, sans-serif;
-    display: grid;
+    display: block;
+    margin: 0 auto;
+    width: 880px;
     background-color: white;
     color: black;
 
@@ -102,11 +112,34 @@ footer {
 
 @media (min-width: 880px) {
 
+    body {
+        display: block;
+        margin: 0 auto;
+        width: 880px;
+
+
+
+
+
+    }
+
 
     
     #gallery {
         display: grid;
-        grid-template-columns: 1fr 1fr;}
+        grid-template-columns: 1fr 1fr;
+        grid-gap:20px;
+    
+    }
+
+    #gallery section img {
+        width: 100%;
+        height: auto;}
+
+        #gallery section figcaption {
+            text-align: center;}
+
+
 
 
 
