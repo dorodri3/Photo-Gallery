@@ -64,7 +64,7 @@ nav ul {
 
 #gallery {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-gap:20px;
 
 }
@@ -117,13 +117,19 @@ footer {
     body {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
         justify-content: center;
 
 
 
 
 
+    }
+
+
+
+    h1 {
+        align-self: flex-start;
     }
 
     main {
