@@ -126,8 +126,11 @@ footer {
 
     }
 
-
-
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+   
     h1 {
         align-self: flex-start;
     }
