@@ -126,6 +126,12 @@ footer {
     border-radius: 5px;
     box-sizing: border-box;}
 
+    input::placeholder {
+        color: #007d7b;
+        
+
+    }
+
 
 
 
