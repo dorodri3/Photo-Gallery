@@ -68,12 +68,14 @@ nav ul {
     grid-template-columns: 1fr;
     
     
+    
 
 }
 
 #gallery section img {
     width: auto;
-    height: auto;}
+    height: auto;
+}
 
 #gallery section figcaption {
     position: absolute;
