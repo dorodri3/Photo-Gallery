@@ -88,19 +88,20 @@ nav ul {
 
 }
 
-#gallery section img {
+#gallery div img {
     width: auto;
     height: auto;
 }
 
-#gallery section figcaption {
+#gallery div figcaption {
     position: absolute;
     color: #ffff;
     text-align: center;
     
     
     
-}
+} 
+
 figcaption {
     position: relative;
     font-weight: bold;
@@ -123,7 +124,7 @@ figcaption {
 }
 
 input[type="submit"] {
-    
+
     color: white;
     background-color: #007d7b;
 }
@@ -208,11 +209,11 @@ nav {
     
     }
 
-    #gallery section img {
+    #gallery div img {
         width: 100%;
         height: auto;}
 
-        #gallery section figcaption {
+        #gallery div figcaption {
             text-align: center;}
 
 
@@ -237,14 +238,7 @@ nav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap:20px;
-    
-    
-
-    
     }
-
-
-
 }
 
 
