@@ -168,6 +168,24 @@ footer {
 
     }
 
+    #contact input[type="submit"] {
+        padding: 10px 15px;
+        width: 75%;
+        margin: 0 auto;
+        display: block; 
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    #contact input[type="submit"]:hover {
+        background-color: #005f5d;
+        color: #ffffff;}
+
+
+
+
+
+
+
     footer {color: white;
         background-color: black;
     }
