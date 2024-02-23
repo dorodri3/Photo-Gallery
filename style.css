@@ -79,7 +79,7 @@ nav ul {
 
 
 
-#gallery {
+#gallery figure {
     display: grid;
     grid-template-columns: 1fr;
     
@@ -95,9 +95,15 @@ nav ul {
 
 #gallery section figcaption {
     position: absolute;
-    color: black;
+    color: #ffff;
     text-align: center;
-    position: absolute;
+    
+    
+    
+}
+figcaption {
+    position: relative;
+    font-weight: bold;
     
 }
 
