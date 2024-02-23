@@ -95,10 +95,11 @@ nav ul {
 
 #gallery section figcaption {
     position: absolute;
-    color: white;
-    text-align: center;}
-
-
+    color: black;
+    text-align: center;
+    position: absolute;
+    
+}
 
 
 
