@@ -45,10 +45,12 @@ h1 {
 
 h2 {
     font-size: 2em;
+    
 }
 
 p {
     font-size: 1.25em;
+    
 }
 
 
@@ -236,8 +238,14 @@ nav {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap:20px;
+        
     
     }
+
+    h2 {
+        text-align: center;
+    }
+   
 
     #gallery div img {
         width: 100%;
@@ -245,6 +253,9 @@ nav {
 
         #gallery div figcaption {
             text-align: center;}
+
+
+
 
 
 
